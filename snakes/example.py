@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import snake as sn
 
-img = np.load('./img.npy')
+img = np.load('./snakes/img.npy')
 
 t = np.arange(0, 2*np.pi, 0.1)
 x = 120+50*np.cos(t)
